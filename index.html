@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <div class="top-bar">
+            <div class="window-controls">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Submit Responses</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header>
+            <h1>Welcome to Student Data Dashboard</h1>
+            <div class="header-content">
+                <div class="header-text">
+                    <p>How confident are students in their career choices?
+This visualization represents the confidence levels of students in making career decisions. It helps assess whether students feel certain about their future or if they need more guidance.</p>
+                </div>
+                <iframe src='https://flo.uri.sh/visualisation/21982414/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:60%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'> </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="card-container">
+
+                <div class="card">
+                    <h3>Student's understanding on career types</h3>
+                    <p>These graphs are on the basis of the understanding of students on various career options.This helps educators track career interests among various student groups.</p>
+                    <div class="card-chart">
+                        <!-- Placeholder for card chart -->
+                        <a href='graph.html'>
+                            <button class="button view-data-btn">Click here</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Gender-Based  Career Perspectives</h3>
+                    <p>Analyzing the differences in career choices, confidence levels, and awareness between male and female students provides insights into gender-based career aspirations and preferences.</p>
+                    <a href="gender.html">
+                        <button class="button view-data-btn">Click here</button>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>Student Career Awareness & Decision-Making</h3>
+                    <p>This section will analyze student responses to Yes/No type questions, highlighting their career awareness, decision-making confidence, and future planning.</p>
+                    <div class="card-chart">
+                        <a href="yesno.html">
+                            <button class="button view-data-btn">Click here</button>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

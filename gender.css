@@ -1,0 +1,85 @@
+/* submit.css - Styles for the Special Graph Page */
+
+/* Reset and General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Background with Image */
+    background-image: url("background.jpg");
+    background-size: contain; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep background fixed during scroll */
+    display: flex;
+    /*justify-content: center;  Remove centering */
+    /*align-items: center;  Remove centering */
+    min-height: 100vh;
+    position: relative; /* Needed for absolute positioning of shapes */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    justify-content: flex-start; /* Align to top-left */
+    align-items: flex-start;
+}
+
+.dashboard-container {
+    width: 100%;      /* Full width */
+    background-color: #ffffff; /* White background */
+    border-radius: 0px;       /* No rounded corners */
+    box-shadow: none;  /* No shadow */
+    overflow: hidden;
+    min-height: 100vh;   /* Full height */
+}
+
+/* You might need to redefine styles for dashboard-container, top-bar, etc.
+   depending on how much you want to override the main styles */
+
+.special-graph-page {
+    padding: 2rem;
+}
+
+.special-graph-page h1 {
+    color: #305973;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.graph-display {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.graph-display h2 {
+    color: #305973;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.graph-display{
+    background-color: rgb(80,133,165);
+}
+.graph-container {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #eee; /* Optional: Add a subtle border */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.graph-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.graph-display p {
+    color: #5e7a8f;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.text{
+    background-color: white;
+}
