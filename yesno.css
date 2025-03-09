@@ -79,3 +79,32 @@ body {
 .text{
     background-color: white;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    .container {
+        width: 95%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
